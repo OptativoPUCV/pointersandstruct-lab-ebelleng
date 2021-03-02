@@ -55,7 +55,11 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   return NULL;
+   Persona* nuevaPersona =  calloc(1, sizeof(Persona));
+   *nuevaPersona->rut = *rut;
+   *nuevaPersona->nombre = *nombre;
+   nuevaPersona->edad = edad;
+   return nuevaPersona;
 }
 
 /*
