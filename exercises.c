@@ -108,8 +108,7 @@ actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
   int i=0;
-  int *pAux;
-  pAux = a->datos;
+  int *pAux = a->datos+i;
   while( pAux != NULL){
       printf("%d : %d + %d = %d\n",*pAux ,a->datos[i], b->datos[i], a->datos[i] + b->datos[i]);
       i++;
