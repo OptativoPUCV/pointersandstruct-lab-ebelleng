@@ -109,12 +109,11 @@ actualiza el vector `c` con el resultado de la suma.
 void sumaV(Vector * a, Vector * b, Vector * c) {
   int i=0;
   int *pAux = c->datos;
-  while( a->datos != NULL){
-    *pAux = *c->datos+i;
-
+  while( pAux != NULL){
     *pAux = *(a->datos+i) + *(b->datos+i);
     i++;
-  }
+    *pAux = *c->datos+i;
+    }
 }
 
 /*
