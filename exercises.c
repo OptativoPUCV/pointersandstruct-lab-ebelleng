@@ -110,7 +110,7 @@ void sumaV(Vector * a, Vector * b, Vector * c) {
   int i=0;
   int *pAux = c->datos;
   while( pAux != NULL){
-      printf("%d + %d = %d\n", a->datos[i], b->datos[i], a->datos[i] + b->datos[i]);
+      printf("%d : %d + %d = %d\n",i ,a->datos[i], b->datos[i], a->datos[i] + b->datos[i]);
       i++;
       pAux++;
     }
