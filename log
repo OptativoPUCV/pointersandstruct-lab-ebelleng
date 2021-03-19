@@ -148,3 +148,9 @@ Tue Mar 16 01:53:46 UTC 2021:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  6|0
 0 : 0 + 3c475c3
+Fri Mar 19 00:44:49 UTC 2021: 
+ exercises.c | 10 +++-------
+ 1 file changed, 3 insertions(+), 7 deletions(-)
+ tests:  6|2
+total_score: 50/70
+dbcf205
